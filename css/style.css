@@ -750,15 +750,16 @@ bottom: -26px;
 
 img[src="img/Profesionalteam.jpg"] {
 position: relative;
-    width: 100%;    
-    height: auto;   
 
+    width: 950px;    
+    height: 500px;   
+    object-fit: cover;
 }
 img[src="img/Profesionalteam2.jpg"] {
 position: relative;
-    width: 100%;    
-    height: auto;   
-
+    width: 900px;    
+    height: 500px;   
+    object-fit: cover;
 }
 .image-container {
     display: flex;
@@ -773,11 +774,13 @@ position: relative;
 
 .service .service-img {
     position: relative;
+    overflow: hidden;
 }
 
 .service .service-img img {
-    width: 100%;
-height: auto;
+    width: 200;
+height: 300px;
+object-fit: cover;
 }
 
 .service .service-overlay {
