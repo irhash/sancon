@@ -773,13 +773,11 @@ position: relative;
 
 .service .service-img {
     position: relative;
-    overflow: hidden;
 }
 
 .service .service-img img {
     width: 100%;
 height: auto;
-object-fit: cover;
 }
 
 .service .service-overlay {
